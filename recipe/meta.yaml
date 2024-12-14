@@ -23,6 +23,7 @@ requirements:
   run:
     - exceptiongroup
     - python >={{ python_min }}
+    - typing_extensions >=4.12.2,<5
 
 test:
   requires:
