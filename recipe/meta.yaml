@@ -1,12 +1,12 @@
-{% set version = "0.0.0a4" %}
+{% set version = "0.1.0" %}
 
 package:
   name: taskgroup
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/t/taskgroup/taskgroup-{{ version }}.tar.gz
-  sha256: eb08902d221e27661950f2a0320ddf3f939f579279996f81fe30779bca3a159c
+  url: https://pypi.org/packages/source/t/taskgroup/taskgroup-{{ version }}.tar.gz
+  sha256: 6ceca5fcf8975227434b0f32eaf3692f9ab517bf5ac713f36e1957a8d6c55bbe
 
 build:
   number: 0
