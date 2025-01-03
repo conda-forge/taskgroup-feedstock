@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set python_min = python_min | default("3.9") %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/taskgroup/taskgroup-{{ version }}.tar.gz
-  sha256: 11fa9c2db1037188ac0b60c70fa979243d00b1fee1a6e61e3171c21c1af75f78
+  sha256: 078483ac3e78f2e3f973e2edbf6941374fbea81b9c5d0a96f51d297717f4752d
 
 build:
   number: 0
